@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit
 
 
 object RetrofitApi {
-    const val NEWS_URL = "https://www.news.developeridn.com/"
+    const val NEWS_URL = "https://www.news.developeridn.com/ekonomi"
 
     private  val client = OkHttpClient.Builder()
         .addInterceptor(HttpLoggingInterceptor().apply {
