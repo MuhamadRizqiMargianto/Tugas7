@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit
 
 
 object RetrofitApi {
-    const val NEWS_URL = "https://www.news.developeridn.com/ekonomi"
+    const val NEWS_URL = "https://ibnux.github.io/BMKG-importer/cuaca/wilayah.json"
 
     private  val client = OkHttpClient.Builder()
         .addInterceptor(HttpLoggingInterceptor().apply {
